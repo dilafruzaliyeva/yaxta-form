@@ -45,8 +45,16 @@
              <p>Гидроцикл ( + 12 000 ₽/час ) </p>
          </div>
          <div class="form-3">
-            <input class="type-1" type="text" id="#text" placeholder="Ваше имя" required>
-            <input class="type-2" type="number"  placeholder="Ваш телефон" required>
+            <div class="card-1">
+                <input class="type-1" type="text" id="text" name="Ваше имя" required>
+                <label>Ваше имя</label>
+                <span id="err"></span>
+            </div>
+            <div class="card-1">
+                <input class="type-2" type="number" id="number"  name="Ваш телефон" required>
+                <label>Ваш телефон</label>
+                <span id="err2"></span>
+            </div>
          </div>
         <button class="btn">Отправить</button>
        </form>
